@@ -239,6 +239,15 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .scene .fab .frame { max-width: 250px; }
 .pad.done button { display: none; }
 .cover { margin-bottom: -28px; }
+/* 聲調要看得清楚：獨立一欄、放大加粗 */
+.bp { font-size: max(.5em, 12px); line-height: 1.08; width: 1.9em; padding-right: .9em; margin-right: .08em; }
+.bp .tone { right: 0; width: .9em; text-align: center; font-size: 1.3em; font-weight: 700; top: 50%; transform: translateY(-50%); }
+.bp .qing { font-size: 1.35em; font-weight: 700; line-height: .55; }
+/* 聲調欄寬和字級對齊，不壓到注音 */
+.bp { width: 2.05em; padding-right: 1.05em; }
+.bp .tone { width: .8em; }
+.logo { font-size: 34px; } .kicker { font-size: 21px; }
+.week { grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 2px; } .wk { font-size: 17px; border-width: 1px; }
 
 /* 單元數感測驗 */
 .quiz-entry { position: relative; z-index: 2; display: flex; align-items: center; gap: 10px; width: 100%; background: rgba(255,253,247,.97); border-radius: 16px; border-bottom: 4px solid #d8c9a6; padding: 8px 14px; margin-bottom: 10px; min-height: 58px; }
